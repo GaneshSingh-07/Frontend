@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Card</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+    <!-- body conatiner -->
+    <div class="conatiner flex items-center justify-center h-screen bg-zinc-700">
+        <!-- card -->
+        <div class="bg-zinc-800 mx-12 rounded-md flex flex-col md:flex-row">
+            <!-- image  -->
+            <img class="h-80 md:h-96 object-fit rounded-md transform hover:scale-105 duration-500"
+            src="https://images.unsplash.com/photo-1684561607487-565ddc54d58f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=687&q=80" alt="">
+            <!-- content  -->
+            <div class="container flex flex-col md:justify-center">
+                <h1 class="text-white text-center font-bold mx-4
+                mt-3 mb-3">GET FITNESS TIPS IN YOUR INBOX</h1>
+                <p class="text-white
+                text-center mx-2 mb-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore harum dolores veniam!</p>
+            
+                <input type="email" placeholder="Enter your Email"
+                class="text-white mx-4 mb-4 text-center bg-zinc-800 border rounded-md">
+                <button class="text-white
+                bg-green-500 mx-4 mb-4 rounded-md hover:bg-green-800 transition duration-700">Subcribe</button>
+            </div>
+            
+        </div>
+
+    </div>
+</body>
+</html>
