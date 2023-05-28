@@ -3,3 +3,6 @@ An Email Subcribe Card
 
 #Frontend-PricingGrid
 Pricing Grid 
+
+#Frontend-ProductModal
+Product Modal
