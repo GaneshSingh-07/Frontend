@@ -6,3 +6,6 @@ Pricing Grid
 
 #Frontend-ProductModal
 Product Modal
+
+#Frontend-Gallery
+Image Gallery
