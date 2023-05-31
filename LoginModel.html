@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Model</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+    <!-- global container  -->
+    <div class="min-h-screen flex items-center justify-center
+    bg-rose-100">
+        
+        <!-- card container  -->
+        <div class="flex flex-col md:flex-row
+        shadow-xl rounded-lg px-2 py-2 bg-white">
+            <!-- heading  -->
+        <div class="">
+            <div>
+            <h1 class="font-bold text-2xl pt-6 px-8">Log In</h1>
+
+            <p class="pt-3 px-8">
+                Log in to your account to upload or download
+                pictures, videos or music
+            </p>
+        </div>
+
+            <!-- email input element  -->
+        <div class="mx-8">
+            <input type="email" name="email" placeholder="
+            Enter your email to continue"
+            class="w-full rounded-md py-2 mt-8 border-2">
+        </div>
+
+        <!-- forget and next -->
+        <div class="flex flex-col space-y-4 justify-center mt-6">
+            <p class="text-cyan-500 text-center">
+                <a href="#">Forget password</a>
+            </p>
+            <button class="mx-12 bg-cyan-700 rounded p-4 shadow-md shadow-cyan-600
+            hover:shadow-lg hover:bg-opacity-90 hover:-translate-y-0.5 transition-all duration-500">
+                Next
+            </button>
+        </div>
+
+        <!-- line  -->
+        <div class="mt-12 border-b border-gray-300 mx-8">
+        </div>
+
+        <p class="text-center mt-2 text-gray-500">or log in with</p>
+
+        <!-- other log in options  -->
+        <div class="flex flex-col justify-center
+            md:space-x-2
+            w-full items-center space-y-4 mt-6 md:flex-row md:space-y-0">
+            <button class="border-2 w-full py-1
+            flex items-center justify-center
+            rounded-md">
+                <img src="./images/facebook.png" alt=""
+                class="w-12">
+                <span class="ml-2">facebook</span>
+            </button>
+
+            <button class="border-2 py-1
+            w-full flex items-center justify-center
+            rounded-md">
+                <img src="./images/google.png" alt=""
+                class="w-12">
+                <span class="ml-2">Google</span>
+            </button>
+
+        </div>
+    </div>
+
+
+        <!-- side image -->
+        <img src="./images/image.jpg" alt=""
+        class="hidden md:block w-80 mx-2">
+        </div>
+
+    </div>
+</body>
+</html>
